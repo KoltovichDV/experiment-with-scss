@@ -2,59 +2,64 @@ $mainColor: rgb(112, 74, 74);
 
 
 .header {
-background: $mainColor;
-display: flex;
-align-items: center;
+    background: $mainColor;
+    display: flex;
+    align-items: center;
 
     &__logo {
         width: 80px;
         padding: 10px;
     }
 
-&__nav {
-    width: 600px;
-    display: flex;
-    justify-content: space-between;
-    color: azure;
-    font-family: Arial, Helvetica, sans-serif;
-    list-style-type: none;
+    &__nav {
+        width: 600px;
+        display: flex;
+        justify-content: space-between;
+        color: azure;
+        font-family: Arial, Helvetica, sans-serif;
+        list-style-type: none;
     }
-    
+
     &__link {
 
         a {
             color: antiquewhite;
         }
-        :hover{
+
+        :hover {
             color: #000;
         }
     }
 }
+
 .main-container {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 
-    &__left-block {
-    }
+    &__left-block {}
 
     &__h1 {
         color: $mainColor;
     }
+
+    &__block-text1 {}
     
-    &__block-text1 {
+
+    &__bold-accent {
+        font-weight: bold;
     }
-    
+
+    &__span-accent {
+        color: tomato;
+    }
+
     &__title-second-level {
         color: $mainColor;
     }
 
-    &__warp {
-    }
+    &__warp {}
 
-    &__block-text2 {
-    }
-}
-.text-shreeft {
+    &__block-text2 {}
 }
 
-
+.text-shreeft {}

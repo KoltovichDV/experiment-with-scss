@@ -29,6 +29,12 @@
 .main-container__h1 {
   color: rgb(112, 74, 74);
 }
+.main-container__bold-accent {
+  font-weight: bold;
+}
+.main-container__span-accent {
+  color: tomato;
+}
 .main-container__title-second-level {
   color: rgb(112, 74, 74);
 }/*# sourceMappingURL=experiment-with-scss.css.map */
